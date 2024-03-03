@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/todolist/assets/todolist icon.png">
+</head>
+
+<body>
+    <main class="container">
+        <h1>TODO LIST</h1>
+        <div class="container__input">
+            <input type="text" id='input' placeholder="Enter the task">
+            <input type="submit" value="Add Task" id="add" onclick="add(event)">
+        </div>
+        <p id="warning"></p>
+        <div class="container__list">
+            <ul id="tasks">
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
